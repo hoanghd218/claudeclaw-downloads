@@ -18,7 +18,7 @@ the npm cache, under `~/Library/Application Support/ClaudeClaw` by default.
 To test alongside an existing installation, use a separate data directory:
 
 ```sh
-npx --yes --package=https://github.com/hoanghd218/claudeclaw-downloads/releases/download/v1.11.0-preview.1/claudeclaw-local-installer-0.2.0.tgz claudeclaw-install --home "$HOME/ClaudeClaw-Pilot"
+npx --yes --package=https://github.com/hoanghd218/claudeclaw-downloads/releases/download/v1.11.0-preview.1/claudeclaw-local-installer-0.2.0.tgz claudeclaw-install gui --home "$HOME/ClaudeClaw-Pilot"
 ```
 
 Use a separate Telegram bot and dashboard port such as 32550. Use the same `--home`
